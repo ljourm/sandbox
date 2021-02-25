@@ -1,14 +1,6 @@
 {
-  "requireUpstream": false,
-  "requireCleanWorkingDir": false,
   "github": {
     "release": true
-  },
-  "git": {
-    "commit": true,
-    "push": false,
-    "requireUpstream": false,
-    "requireCleanWorkingDir": false
   },
   "npm": {
     "publish": false

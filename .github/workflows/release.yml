@@ -14,7 +14,7 @@ jobs:
       - uses: actions/setup-node@v2
       - name: Set releaser settings
         run: |
-          git config --global user.name release-machine
+          git config --global user.name release-bot
           git config --global user.email email@example.com
       - name: Major release
         id: major
