@@ -1,0 +1,29 @@
+name: auto-release
+on:
+  push:
+    branches:
+      - master
+jobs:
+  auto-release:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      RELEASE_IT_VERSION: 14.4.6
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+      - name: Set releaser settings
+        run: |
+          git config --global user.name release-machine
+          git config --global user.email email@example.com
+      - name: Major release
+        id: major
+        if: contains(toJSON(github.event.commits.*.message), 'bump up version major')
+        run:  npx release-it@${RELEASE_IT_VERSION} -- major --ci
+      - name: Minor release
+        id: minor
+        if: steps.major.conclusion == 'skipped' && contains(toJSON(github.event.commits.*.message), 'bump up version minor')
+        run:  npx release-it@${RELEASE_IT_VERSION} -- minor --ci
+      - name: Patch release
+        if: "!(steps.major.conclusion == 'success' || steps.minor.conclusion == 'success')"
+        run:  npx release-it@${RELEASE_IT_VERSION} -- patch --ci
