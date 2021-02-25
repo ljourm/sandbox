@@ -5,7 +5,6 @@ on:
       - master
     tags:
       - "**"
-
 jobs:
   auto-release:
     runs-on: ubuntu-latest
@@ -15,6 +14,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
+      - name: Set releaser settings
+        run: |
+          git config --global user.name release-machine
+          git config --global user.email email@example.com
       - name: Major release
         id: major
         if: contains(toJSON(github.event.commits.*.message), 'bump up version major')
