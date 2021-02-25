@@ -1,6 +1,6 @@
 {
   "hooks": {
-    "before:npm:release": "echo \"//registry.npmjs.org/:_authToken=$NPM_TOKEN\" > .npmrc"
+    "before:npm:release": "echo \"//registry.npmjs.org/:_authToken=$NODE_AUTH_TOKEN\" > .npmrc"
   },
   "github": {
     "release": true
