@@ -4,5 +4,10 @@
   },
   "npm": {
     "publish": true
+  },
+  "git": {
+    "requireCleanWorkingDir": false,
+    "addFiles": ["package.json", "CHANGELOG.md"],
+    "commitMessage": "chore: release ${version}"
   }
 }
