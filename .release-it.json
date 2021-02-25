@@ -5,7 +5,7 @@
     "release": true
   },
   "git": {
-    "commit": false,
+    "commit": true,
     "push": false,
     "requireUpstream": false,
     "requireCleanWorkingDir": false
