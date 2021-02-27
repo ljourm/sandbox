@@ -1,8 +1,14 @@
 {
   "name": "ljourm-sandbox",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "main": "index.js",
   "repository": "https://github.com/ljourm/sandbox.git",
   "author": "ljourm <ljourm@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "release-it": "^14.4.1"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
 }
