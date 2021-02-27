@@ -1,15 +1,4 @@
 {
-  "hooks": {
-    "before:npm:release": "echo '//registry.npmjs.org/:_authToken=$NODE_AUTH_TOKEN' > .npmrc; cat .npmrc; echo $NODE_AUTH_TOKEN"
-  },
-  "github": {
-    "release": true
-  },
-  "git": {
-    "requireCleanWorkingDir": false,
-    "addFiles": ["package.json", "CHANGELOG.md"],
-    "commitMessage": "chore: release ${version}"
-  },
   "npm": {
     "publish": true
   }
