@@ -3,8 +3,6 @@
     "release": false
   },
   "git": {
-    "commit": false,
-    "push": false,
     "requireCleanWorkingDir": false,
     "addFiles": ["package.json", "CHANGELOG.md"],
     "commitMessage": "chore: release ${version}"
