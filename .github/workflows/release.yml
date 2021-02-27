@@ -20,6 +20,8 @@ jobs:
         run: |
           git config --global user.name release-bot
           git config --global user.email email@example.com
+      - name: Set .npmrc
+        run: echo '//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}' > .npmrc
       - name: Major release
         id: major
         if: contains(toJSON(github.event.commits.*.message), 'bump up version major')
