@@ -1,3 +1,10 @@
+## [1.1.27](https://github.com/ljourm/sandbox/compare/1.1.26...1.1.27) (2021-02-27)
+
+
+### Features
+
+* json to js at release-it ([916646b](https://github.com/ljourm/sandbox/commit/916646b5df610e01a7ebd63bed53e43b7105a4d4))
+
 ## [1.1.26](https://github.com/ljourm/sandbox/compare/1.1.25...1.1.26) (2021-02-27)
 
 
