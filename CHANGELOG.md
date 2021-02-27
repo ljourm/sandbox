@@ -1,3 +1,10 @@
+## 1.1.11 (2021-02-27)
+
+
+### feat
+
+* add ... ([ca9e430](https://github.com/ljourm/sandbox/commit/ca9e4308dda35d80e27f31211b141853bef16f2d))
+
 ## [1.1.10](https://github.com/ljourm/sandbox/compare/1.1.9...1.1.10) (2021-02-27)
 
 
