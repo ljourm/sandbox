@@ -7,9 +7,5 @@
   "license": "MIT",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
-  },
-  "devDependencies": {
-    "release-it": "14.4.1",
-    "@release-it/conventional-changelog": "^2.0.1"
   }
 }
