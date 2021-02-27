@@ -1,3 +1,14 @@
+## [1.1.9](https://github.com/ljourm/sandbox/compare/1.1.7...1.1.9) (2021-02-27)
+
+
+### chore
+
+* release 1.1.8 ([fd3ef13](https://github.com/ljourm/sandbox/commit/fd3ef13f79257952c45aec42f9fde4be40fe12ae))
+
+### fix
+
+* change to eslint changelogs ([49f7f29](https://github.com/ljourm/sandbox/commit/49f7f291e0897b4fd96b6cfeef04cee7f139d2b7))
+
 ## [1.1.8](https://github.com/ljourm/sandbox/compare/1.1.7...1.1.8) (2021-02-27)
 
 
