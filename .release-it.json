@@ -1,6 +1,6 @@
 {
   "github": {
-    "release": true
+    "release": false
   },
   "git": {
     "requireCleanWorkingDir": false,
@@ -8,6 +8,6 @@
     "commitMessage": "chore: release ${version}"
   },
   "npm": {
-    "publish": true
+    "publish": false
   }
 }
