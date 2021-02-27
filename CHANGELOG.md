@@ -1,3 +1,10 @@
+## 1.1.22 (2021-02-27)
+
+
+### Features
+
+* **package:** remove release-it ([0c4e04f](https://github.com/ljourm/sandbox/commit/0c4e04f17f504430d9211cddd0f4b9c209c76e52))
+
 ## 1.1.21 (2021-02-27)
 
 ## 1.1.20 (2021-02-27)
