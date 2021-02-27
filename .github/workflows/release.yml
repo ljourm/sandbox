@@ -14,8 +14,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
-      - name: Add release-it
-        run: yarn add release-it@${RELEASE_IT_VERSION} @release-it/conventional-changelog@${RELEASE_IT_CHANGELOG_VERSION}
       - name: Set releaser settings
         run: |
           git config --global user.name release-bot
@@ -32,4 +30,4 @@ jobs:
         run:  yarn release-it minor --ci
       - name: Patch release
         if: "!(steps.major.conclusion == 'success' || steps.minor.conclusion == 'success')"
-        run:  yarn release-it patch --ci
+        run: npx --package @release-it/conventional-changelog@${RELEASE_IT_CHANGELOG_VERSION} release-it@${RELEASE_IT_VERSION}
