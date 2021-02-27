@@ -10,5 +10,8 @@
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "@release-it/conventional-changelog": "^2.0.1"
   }
 }
