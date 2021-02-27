@@ -28,4 +28,4 @@ jobs:
         run:  npx release-it@${RELEASE_IT_VERSION} -- minor --ci
       - name: Patch release
         if: "!(steps.major.conclusion == 'success' || steps.minor.conclusion == 'success')"
-        run:  npx release-it@${RELEASE_IT_VERSION} -- patch --ci
+        run:  npm release-it@${RELEASE_IT_VERSION} -- patch --ci
