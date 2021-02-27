@@ -1,3 +1,15 @@
+## [1.1.25](https://github.com/ljourm/sandbox/compare/1.1.24...1.1.25) (2021-02-27)
+
+
+### Bug Fixes
+
+* add fetch-depth in github actions ([9037cee](https://github.com/ljourm/sandbox/commit/9037ceef775717ce7d6f9b291f78d4f89445ec04))
+
+
+### Features
+
+* jj ([249183f](https://github.com/ljourm/sandbox/commit/249183f9788ce06e5caeeba93d82241d3ac08f75))
+
 ## 1.1.24 (2021-02-27)
 
 ## 1.1.23 (2021-02-27)
