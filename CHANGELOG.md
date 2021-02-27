@@ -1,3 +1,15 @@
+## [1.1.26](https://github.com/ljourm/sandbox/compare/1.1.25...1.1.26) (2021-02-27)
+
+
+### Features
+
+* kk ([17efe46](https://github.com/ljourm/sandbox/commit/17efe46ec0237ed1084ce8151ae42266b5fd037e))
+
+
+### Performance Improvements
+
+* ll ([8bfc39d](https://github.com/ljourm/sandbox/commit/8bfc39dd3e5097409d2d9ba6f56ee5bbd6f36956))
+
 ## [1.1.25](https://github.com/ljourm/sandbox/compare/1.1.24...1.1.25) (2021-02-27)
 
 
