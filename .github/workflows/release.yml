@@ -13,6 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
+      - run: echo $NODE_AUTH_TOKEN
       - name: Set releaser settings
         run: |
           git config --global user.name release-bot
