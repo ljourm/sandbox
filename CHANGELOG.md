@@ -1,3 +1,10 @@
+## [1.1.8](https://github.com/ljourm/sandbox/compare/1.1.7...1.1.8) (2021-02-27)
+
+
+### fix
+
+* change to eslint changelogs ([49f7f29](https://github.com/ljourm/sandbox/commit/49f7f291e0897b4fd96b6cfeef04cee7f139d2b7))
+
 ## [1.1.7](https://github.com/ljourm/sandbox/compare/1.1.6...1.1.7) (2021-02-27)
 
 
